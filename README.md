@@ -1,7 +1,13 @@
 # Página De Farmacia Comunitaria
 
-## instrucciones
+Proyecto destinado a la creación de una página web sobre farmacia comunitaria, sus características y sus funciones.
 
-abrir index.html
+## Instrucciones
 
-Sitio dedicado a la dispensación de medicamentos y demás insumos para la salud.
+Abrir index.html
+
+## Autor
+
+@MirandaAd
+aldomc99@gmail.com
+
