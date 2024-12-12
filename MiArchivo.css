@@ -186,8 +186,3 @@
     border-radius: 8px;
 }
 
-@media(max-width: 700px){
-    .funcion h2{
-        font-size: 22;
-    }
-}
