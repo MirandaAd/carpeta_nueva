@@ -152,3 +152,42 @@
     }
 }
 
+.funcion{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.funcion h2{
+    font-size: 28px;
+    color: #06cb55;
+    background-color: rgba(4,9,30,0.7);
+    border-radius: 8px;
+}
+
+.fila{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+.funcion-col{
+    width: 350px;
+    flex-basis: 30%;
+    border-radius: 8px;
+    margin: 1%;
+}
+
+.funcion-col img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media(max-width: 700px){
+    .funcion h2{
+        font-size: 22;
+    }
+}
