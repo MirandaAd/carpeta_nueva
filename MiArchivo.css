@@ -153,10 +153,11 @@
 }
 
 .funcion{
-    width: 80%;
+    width: 85%;
     margin: auto;
     text-align: center;
-    padding-top: 40px;
+    align-items: center;
+    padding-top: 5%;
     padding-bottom: 40px;
 }
 
@@ -165,6 +166,11 @@
     color: #06cb55;
     background-color: rgba(4,9,30,0.7);
     border-radius: 8px;
+    padding: 1.8%;
+    border-bottom: 3%;
+}
+.funcion p{
+    font-size: 20px;
 }
 
 .fila{
@@ -186,3 +192,63 @@
     border-radius: 8px;
 }
 
+@media(max-width: 700px){
+    .funcion{
+        width: 95%;
+    }
+    .funcion h2{
+        font-size: 22px;
+    }
+    .funcion p{
+        font-size: 16px;
+    }
+}
+
+.farmatec{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 1%;
+}
+.vigil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 50px;
+    width: 50%;
+    padding: 2%;
+    text-align: justify;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    border-color: rgba(4,9,30,0.7);
+    border-style: solid;
+    border-width: 2px;
+    margin: 1%;
+}
+
+.farmatec h2{
+    font-size: 28px;
+    color: #06cb55;
+    background-color: rgba(4,9,30,0.7);
+    border-radius: 8px;
+    padding: 1.8%;
+    border-bottom: 3%;
+}
+.farmatec p{
+    font-size: 20px;
+}
+@media(max-width: 700px){
+    .farmatec{
+        width: 95%;
+    }
+    .formatec h2{
+        font-size: 22px;
+    }
+    .farmatec p{
+        font-size: 16px;
+    }
