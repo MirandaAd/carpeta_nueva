@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(imgs/medicamento_frascos.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(https://www.eluniverso.com/resizer/v2/SA2ZX7FODBBE3N52XDK4KL6XJM.png?auth=8dc5770cd206608b5d65a7e4490bfdbc530342fced527b59e75471bf0b973b39&width=1004&height=670&quality=75&smart=true);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -223,21 +223,24 @@
     width: 50%;
     padding: 2%;
     text-align: justify;
-    background-color: #eeeeee;
+    background-color: aliceblue;
     border-radius: 8px;
     border-color: rgba(4,9,30,0.7);
     border-style: solid;
     border-width: 2px;
     margin: 1%;
 }
-
+.vigil a{
+    text-decoration: none;
+    color: #06cb55;
+    font-size: 20px;
+}
 .farmatec h2{
     font-size: 28px;
     color: #06cb55;
     background-color: rgba(4,9,30,0.7);
     border-radius: 8px;
     padding: 1.8%;
-    border-bottom: 3%;
 }
 .farmatec p{
     font-size: 20px;
@@ -252,3 +255,58 @@
     .farmatec p{
         font-size: 16px;
     }
+}
+
+.medicamentos{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.control{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.libre{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.grupo{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    background-color: rgba(4,9,30,0.7);
+    border-radius: 8px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 1%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.medicamentos h2{
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    color: #06cb55;
+    background-color: rgba(4,9,30,0.7);
+    border-radius: 8px;
+    padding: 1.8%;
+}
+
+.medicamentos h3{
+    font-size: 22px;
+    color: rgba(4,9,30,0.7);
+    padding: 1.5%;
+}
+
+.medicamentos p{
+    font-size: 20px;
+}
