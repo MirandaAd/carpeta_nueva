@@ -249,7 +249,7 @@
     .farmatec{
         width: 95%;
     }
-    .formatec h2{
+    .farmatec h2{
         font-size: 22px;
     }
     .farmatec p{
@@ -309,4 +309,53 @@
 
 .medicamentos p{
     font-size: 20px;
+}
+@media(max-width: 700px){
+    .medicamentos{
+        width: 95%;
+    }
+    .medicamentos h2{
+        font-size: 22px;
+    }
+    .medicamentos p{
+        font-size: 16px;
+    }
+}
+
+.more{
+    margin: 35px auto;
+    width: 85%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(https://szindustrial.com/wp-content/uploads/2024/06/control-de-calidad-en-la-industria-farmaceutica-medicamentos-SZ-Industrial.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+    padding: 75px 0;
+}
+
+.more h2{
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    color: #06cb55;
+}
+
+.more p{
+    font-size: 20px;
+    color:aliceblue;
+}
+.form{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+@media(max-width: 700px){
+    .more{
+        width: 95%;
+    }
+    .more h2{
+        font-size: 22px;
+    }
+    .more p{
+        font-size: 16px;
+    }
 }
