@@ -21,28 +21,11 @@
     border-bottom: 2px solid #ddd;
 }
 
-.navbar-links {
-    display: flex;
-    gap: 22px;
-    margin-left: 22px;
-}
-
 .navbar-item {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: normal;
     font-size: 22px;
-}
-
-.navbar-actions {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-}
-
-.navbar-left {
-    display: flex;
-    align-items: center;
 }
 
 .navbar-right {
@@ -56,14 +39,6 @@
     padding: 8px 12px;
     position: relative;
 }
-
-.store-locator {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 22px;
-}
-
-
 
 .btn {
     text-decoration: none;
